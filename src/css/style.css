@@ -1,0 +1,18 @@
+.container__items{
+    display: flex;
+    justify-content: center;
+}
+
+.container__item{
+    width: 300px;
+}
+.container-fluid {
+}
+.row {
+}
+.container__items {
+}
+.col-l-3 {
+}
+.container__item {
+}
