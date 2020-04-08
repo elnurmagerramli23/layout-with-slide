@@ -5,19 +5,19 @@ const minifyCSS = require('gulp-csso');
 
 function returnHTML() {
     return src('./src/*.pug')
-        .pipe(pug())
-        .pipe(dest('build'))
-    }
+    .pipe(pug())
+    .pipe(dest('build'))
+}
     
-    function returnJS() {
+function returnJS() {
     return src('./src/js/**/*.js')
-        .pipe(pug())
-        .pipe(dest('build'))
-    }
+    .pipe(pug())
+    .pipe(dest('build'))
+}
 
 
 function returnCSS() {
-    return src('./src/css/style.less')
+    return src('./src/css/**/*.less')
     .pipe(less())
     .pipe(minifyCSS())
     .pipe(dest('./build'))
