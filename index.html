@@ -6,36 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="src/css/bootstrap.css">
-
+    <link rel="stylesheet" href="./src/css/bootstrap.css">
+    <link rel="stylesheet" href="./src/css/style.less">
     <title>Hello, world!</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Navbar</a>
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand text-success" href="#">LoGo</a>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link text-success" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-success" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
 
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -84,15 +84,48 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      
-        
-       
-
     
+      <div class="container">
+        <div class="row">
+          <div class="col-m-4">
+            <div class="box">
+              <div class="box__title">
+                <h3>Test of title</h3>
+              </div>
+              <div class="box__text">
+                <p>Test of text</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-m-4">
+            <div class="box">
+              <div class="box__title">
+                <h3 class="box__title">Test of title</h3>
+              </div>
+              <div class="box__text">
+                <p>Test of text</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-m-4">
+            <div class="box">
+              <div class="box__title">
+                <h3>Test of title</h3>
+              </div>
+              <div class="box__text">
+                <p>Test of text</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="src/js/jquery-3.4.1.min.js"></script>
     <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/less.min.js"></script>
   </body>
 </html>
