@@ -1,0 +1,42 @@
+/* About */
+.about .about__title{
+    color:#F97300;
+    margin: 2em;
+   }
+.about{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about__image{
+    width: auto;
+    height: auto;
+}
+
+.about .about__text{
+    padding: 2em;
+}
+.about .about__text .about__title{
+    color: #28a745 ;
+}
+.about .about__text .about__desription{
+    line-height: 2;
+    color:#888;
+}
+.portfolio__image{
+    height: 100%;
+    width: 100%;
+    margin: 10px 10px;
+    transition: .5s all ease-in-out;
+}
+.portfolio__image:hover{
+    transform: scale(1.2);
+}
+   
+
+   /*Portfolio*/
+
+.portfolio .portfolio__title{
+    color:#28a745;
+    margin: 2em; 
+}

@@ -1,5 +1,43 @@
-@block-color: red;
+@color-green: #28a745;
+@color-dark: #343a40;
+@color-orange: #F97300;
 
-box__title{
-    color: @block-color !important
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+    background-color: @color-dark;
+    .about__title{
+        color: @color-green;
+        margin: 2em;
+    }
+    .about__image{
+        width: auto;
+        height: auto;
+    }
+    .about__text{
+        padding: 2em;
+    }
+    .about__desription{
+        line-height: 2;
+        color:#888;
+    }
+}
+.portfolio{
+    margin: 4em 0;
+    position: relative;
+    background-color: @color-dark;
+    .portfolio__image{
+        height: 100%;
+        width: 100%;
+        margin: 10px 10px;
+        transition: .5s all ease-in-out;
+    }
+    .portfolio__image:hover{
+        transform: scale(1.2);
+    }
+    .portfolio__title{
+        color: @color-green;
+        margin: 2em; 
+    }
 }
